@@ -71,3 +71,76 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/users/logout
 ---
+2014/05/12 23:46:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Etelix_RibelaMail\src\web\index.php(27): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/05/12 23:46:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "saveMail".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('saveMail')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('saveMail')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Site/saveMail')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Etelix_RibelaMail\src\web\index.php(27): CApplication->run()
+#5 {main}
+REQUEST_URI=/Site/saveMail?inputMail=ajajajaa
+HTTP_REFERER=http://ribela.local/
+---
+2014/05/12 23:46:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "saveMail".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('saveMail')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('saveMail')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Mail/saveMail')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Etelix_RibelaMail\src\web\index.php(27): CApplication->run()
+#5 {main}
+REQUEST_URI=/Mail/saveMail?inputMail=ghfghdfgh
+HTTP_REFERER=http://ribela.local/
+---
+2014/05/12 23:47:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "saveMail".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('saveMail')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('saveMail')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Mail/saveMail')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Etelix_RibelaMail\src\web\index.php(27): CApplication->run()
+#5 {main}
+REQUEST_URI=/Mail/saveMail?inputMail=fhh
+HTTP_REFERER=http://ribela.local/
+---
+2014/05/12 23:47:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "saveMail".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('saveMail')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('saveMail')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Mail/saveMail')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Etelix_RibelaMail\src\web\index.php(27): CApplication->run()
+#5 {main}
+REQUEST_URI=/Mail/saveMail?inputMail=fhh
+HTTP_REFERER=http://ribela.local/
+---
+2014/05/12 23:48:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "saveMail".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('saveMail')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('saveMail')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Mail/saveMail')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Etelix_RibelaMail\src\web\index.php(27): CApplication->run()
+#5 {main}
+REQUEST_URI=/Mail/saveMail?inputMail=fhh
+HTTP_REFERER=http://ribela.local/
+---
+2014/05/12 23:48:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "saveMail".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('saveMail')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('saveMail')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Mail/saveMail')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Etelix_RibelaMail\src\web\index.php(27): CApplication->run()
+#5 {main}
+REQUEST_URI=/Mail/saveMail?inputMail=fhh
+---

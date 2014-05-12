@@ -248,3 +248,39 @@ margin-left: 32%;
 {
     height: 3em;
 }
+
+.success 
+{
+    margin: 1% 33%;
+    display:none;
+}
+.landingpage 
+{
+    width: 234px;
+}
+.siteIs 
+{
+    font-family: 'Segoe UI Light_', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+    color: #77787A;
+    letter-spacing: 0em;
+    font-size: 54pt;
+    line-height: 32pt;
+}
+.coming,.soon 
+{
+    font-family: 'Segoe UI Light_', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+    color: #77787A;
+    font-weight: bold;
+    letter-spacing: 0em;
+    font-size: 62pt;
+    line-height: 10pt;
+    text-align: right;
+}
+.coming
+{
+    margin: 0% 9%;
+}
+.soon 
+{
+    margin: 18% 37%;
+}
