@@ -251,8 +251,10 @@ margin-left: 32%;
 
 .success 
 {
-    margin: 1% 33%;
-    display:none;
+    margin: 1% 38%;
+    display: none;
+    position: absolute;
+    width: 100%;
 }
 .landingpage 
 {
