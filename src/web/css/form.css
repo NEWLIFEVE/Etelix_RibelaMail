@@ -167,8 +167,8 @@ div.wide.form .buttons, div.wide.form .hint, div.wide.form .errorMessage
  {
         height: 24px !important ;
         padding: 5px !important;
-        margin: 0.2em 0 0.5em 0 !important;
-        width: 17.3em;
+        margin: 0.2em 0 0.5em 0.2em !important;
+        width: 16.9em;
  }
  .botonMail
  {
