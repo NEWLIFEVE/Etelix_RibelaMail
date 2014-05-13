@@ -254,7 +254,6 @@ div.search-form
         margin: 1% 22%;
         display: none;
         position: absolute;
-        width: 100%;
 }
 .landingpage 
 {
@@ -268,7 +267,6 @@ div.search-form
     letter-spacing: 0em;
     font-size: 74pt;
     line-height: 7pt;
-
 }
 .coming,.soon 
 {
@@ -290,7 +288,6 @@ div.search-form
 }
 .siteDescription 
 {
-<<<<<<< HEAD
     background: #fff;
     position: absolute;
     display: inline-block;
@@ -305,20 +302,4 @@ div.search-form
     line-height: 6pt;
     font-size: medium;
 }
-=======
-        background: #fff;
-        position: absolute;
-        display: inline-block;
-        width: 430px;
-        height: 90px;
-        margin: -12% 33%;
-        border-image: linear-gradient(90deg, #60c0e6, #2185a0 91%,#06566B ) 1 100%;
-        border-left-width: 6px;
-        padding: 2% 5%;
-        font-family: 'Calibri Light', Helvetica, sans-serif;
-        color: #88898B;
-        line-height: 6pt;
-        font-size: medium;
-}
 
->>>>>>> d7730d38844df053ab809d5d29036fa56408e44d
