@@ -74,3 +74,19 @@ Stack trace:
 REQUEST_URI=/Mail/SaveMail?inputMail=mark182182%40gmail.com
 HTTP_REFERER=http://ribela.sacet.com.ve/
 ---
+2014/05/13 16:31:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Etelix_RibelaMail\src\web\index.php(27): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/05/13 16:32:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Etelix_RibelaMail\src\web\index.php(27): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

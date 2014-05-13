@@ -173,7 +173,8 @@ class MailController extends Controller
         public function actionSaveMail() 
         {
             $modelVal = Mail::model()->find('mail=:mail', array(':mail' => $_GET["inputMail"]));
-            if ($modelVal != NULL) {
+            
+            if (is_null($modelVal)) {
                 $model = new Mail;
                 $model->mail = $_GET["inputMail"];
                 if ($model->save())

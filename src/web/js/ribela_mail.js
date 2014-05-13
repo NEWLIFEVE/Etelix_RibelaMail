@@ -51,13 +51,18 @@ $RIBELA.AJAX=(function()
              data: form,
              success: function(data)
              {
+                 alert(data);
+                 console.log(data);
                  switch(data){
                     case '0':
                         $(".success ").css("color", "#F74B4B").html("Sorry, the email was not saved, try again").fadeIn("slow");
+                        break;
                     case '1':
                         $(".success ").css("color", "rgb(83,180,216)").html("The email was successfully saved").fadeIn("slow");
+                        break;
                     case '2':
                         $(".success ").css("color", "#F74B4B").html("Sorry, the email is already registered").fadeIn("slow");
+                        break;
                  }        
              }
         });
