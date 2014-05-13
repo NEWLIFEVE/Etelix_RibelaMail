@@ -23,7 +23,14 @@ $RIBELA.UI = (function(){
         $("input.botonMail").on("click", function()
         {
             $(".success ").fadeOut("fast");
-            $RIBELA.AJAX.send("GET","/Mail/SaveMail",$('#inputMail').serializeArray());
+            if($("#inputMail").val()==""){
+                $(".success ").css("color", "#F74B4B").html("empty input").fadeIn("slow");
+            }else{
+                if ( !/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/.test($("#inputMail").val()) )
+                    $(".success ").css("color", "#F74B4B").html("The entered email is not correct").fadeIn("slow");
+                else
+                    $RIBELA.AJAX.send("GET","/Mail/SaveMail",$('#inputMail').serializeArray());
+            }
         });
     }
     return {init:init 
