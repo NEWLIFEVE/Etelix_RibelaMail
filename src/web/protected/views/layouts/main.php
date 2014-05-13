@@ -15,6 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/responsive.css" />
+        <script src="<?php echo Yii::app()->baseUrl; ?>/js/prefixfree.min.js"></script>
         <link rel="shortcut icon" href="<?php echo Yii::app()->request->baseUrl; ?>/images/ribela.ico" type="image/x-icon" />
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
