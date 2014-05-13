@@ -91,4 +91,5 @@ class Mail extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+        
 }
