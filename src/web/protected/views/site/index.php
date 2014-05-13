@@ -15,7 +15,7 @@ $this->pageTitle=Yii::app()->name;
    </div>
    <div class="siteDescription">
        <h2>Hi there, right now we are working on</h2> 
-       <h2>SOMETHING VERY EXTING!</h2> 
+       <h2>SOMETHING VERY EXCITING!</h2> 
        <h2>you can sign up so you will</h2> 
        <h2>be the first to know when it´s launched</h2> 
    </div>
