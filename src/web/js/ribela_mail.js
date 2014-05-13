@@ -57,6 +57,7 @@ $RIBELA.AJAX=(function()
                         break;
                     case '1':
                         $(".success ").css("color", "rgb(83,180,216)").html("The email was successfully saved").fadeIn("slow");
+                        $("#inputMail").val("");
                         break;
                     case '2':
                         $(".success ").css("color", "#F74B4B").html("Sorry, the email is already registered").fadeIn("slow");
