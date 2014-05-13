@@ -230,76 +230,77 @@ div.search-form
 
 .logo
 {
-    margin-left: 52em;
-    height: 8em;
+        margin-left: 52em;
+        height: 8em;
 }
 .mail-input
 {
-background-color: rgba(217, 217, 217, 0.56);
-width: 37%;
-height: 43px;
-padding: 3px;
-z-index: 1;
-margin-top: 1%;
-margin-left: 32%;
+        background-color: rgba(217, 217, 217, 0.56);
+        width: 37%;
+        height: 43px;
+        padding: 3px;
+        z-index: 1;
+        margin-top: 1%;
+        margin-left: 32%;
 }
 
 .boton
 {
-    height: 3em;
+        height: 3em;
 }
 
 .success 
 {
-    margin: 1% 22%;
-    display: none;
-    position: absolute;
-    width: 100%;
+        margin: 1% 22%;
+        display: none;
+        position: absolute;
+        width: 100%;
 }
 .landingpage 
 {
-    width: 234px;
-    margin: 4% 0% 7% 0%;
+        width: 234px;
+        margin: 4% 0% 7% 0%;
 }
 .siteIs 
 {
-    font-family: 'Segoe UI Light', 'Open Sans Light';
-    color: #88898B;
-    letter-spacing: 0em;
-    font-size: 74pt;
-    line-height: 7pt;
+        font-family: 'Segoe UI Light', 'Open Sans Light';
+        color: #88898B;
+        letter-spacing: 0em;
+        font-size: 74pt;
+        line-height: 7pt;
 }
 .coming,.soon 
 {
-    font-family: 'Calibri';
-    color: #88898B;
-    font-weight: bolder;
-    letter-spacing: 2px;
-    font-size: 88pt;
-    line-height: 19pt;
-    text-align: right;
+        font-family: 'Calibri';
+        color: #88898B;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        font-size: 88pt;
+        line-height: 19pt;
+        text-align: right;
 }
 .coming
 {
-    margin: 0% 14%;
+        margin: 0% 14%;
 }
 .soon 
 {
-    margin: 18% 42%;
+        margin: 18% 42%;
 }
 .siteDescription 
 {
-    background: #fff;
-    position: absolute;
-    display: inline-block;
-    width: 430px;
-    height: 90px;
-    margin: -12% 33%;
-    border-image: linear-gradient(90deg, #60c0e6, #2185a0 91%,#06566B ) 1 100%;
-    border-left-width: 6px;
-    padding: 2% 5%;
-    font-family: 'Calibri Light', Helvetica, sans-serif;
-    color: #88898B;
-    line-height: 6pt;
-    font-size: medium;
+        background: #fff;
+        position: absolute;
+        display: inline-block;
+        width: 430px;
+        height: 90px;
+        margin: -12% 33%;
+        border-image: linear-gradient(90deg, #60c0e6, #2185a0 91%,#06566B ) 1 100%;
+        border-left-width: 6px;
+        padding: 2% 5%;
+        font-family: 'Calibri Light', Helvetica, sans-serif;
+        color: #88898B;
+        line-height: 6pt;
+        font-size: medium;
 }
+
