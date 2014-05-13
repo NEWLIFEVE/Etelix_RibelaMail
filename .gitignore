@@ -1,6 +1,6 @@
 src/web/assets/*
 !assets/.gitignore
-srv/web/protected/runtime/*
+src/web/protected/runtime/*
 !protected/runtime/.gitignore
 src/web/protected/data/*.db
 src/web/themes/classic/views/

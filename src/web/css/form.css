@@ -155,55 +155,53 @@ div.wide.form label
 
 div.wide.form .row
 {
-	clear: left;
+        clear: left;
 }
 
 div.wide.form .buttons, div.wide.form .hint, div.wide.form .errorMessage
 {
-	clear: left;
-	padding-left: 110px;
+        clear: left;
+        padding-left: 110px;
 }
  .inputMail
  {
-    height: 24px !important ;
-    padding: 5px !important;
-    margin: 0.2em 0 0.5em 0 !important;
-    width: 17.3em;
+        height: 24px !important ;
+        padding: 5px !important;
+        margin: 0.2em 0 0.5em 0.2em !important;
+        width: 16.9em;
  }
  .botonMail
  {
-height: 42px !important;
-/*padding: 9px !important;*/
-width: 5em !important;
-background-color: rgb(83,180,216);
-color: white;
-text-align: center;
-font-size: 18px;
-margin-top: -1px;
+        height: 42px !important;
+        width: 5em !important;
+        color: white;
+        text-align: center;
+        font-size: 18px;
+        margin-top: -1px;
+        background: radial-gradient(ellipse at center, #60c0e6 0%,#2185a0 100%);
+        border-radius: 5%;
+        text-shadow: 0.11em 0.1em #6D6E70;
  }
  
  .botonMail:hover
  {
-height: 42px !important;
-/*padding: 9px !important;*/
-width: 5em !important;
-background-color: rgb(34,134,161);
-color: white;
-text-align: center;
-font-size: 18px;
-margin-top: -1px;
+        background: radial-gradient(ellipse at center, #2185a0 0%,#60c0e6 100%);
  }
- 
-input
+ .botonMail:active
  {
-border: 1px rgba(255, 255, 255, 0.31) solid;
-height: 41px;
-padding: 9px;
-width: 8em;
+        background: #fff;
+        color: #2185a0;
+        text-shadow: 0em 0em #6D6E70;
  }
  
-
-
+ input
+ {
+        border: 1px rgba(255, 255, 255, 0.31) solid;
+        height: 41px;
+        padding: 9px;
+        width: 8em;
+ }
+ 
 /* individual: webkit */
 ::-webkit-input-placeholder { font-style:italic; color:rgba(217, 217, 217, 1); }
 
