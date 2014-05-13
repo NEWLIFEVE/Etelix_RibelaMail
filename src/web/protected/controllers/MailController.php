@@ -170,13 +170,19 @@ class MailController extends Controller
 			Yii::app()->end();
 		}
 	}
-        public function ActionSaveMail()
+        public function actionSaveMail() 
         {
-            $model=new Mail;
-            $model->mail=$_GET["inputMail"];
-            if($model->save())
-                echo TRUE;
-            else
-                echo FALSE;
-        }
+            $modelVal = Mail::model()->find('mail=:mail', array(':mail' => $_GET["inputMail"]));
+            if ($modelVal != NULL) {
+                $model = new Mail;
+                $model->mail = $_GET["inputMail"];
+                if ($model->save())
+                    echo 1;
+                else
+                    echo 0;
+            }else {
+                echo 2;
+            }
+    }
+
 }

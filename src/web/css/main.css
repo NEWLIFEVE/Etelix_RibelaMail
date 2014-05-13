@@ -263,11 +263,12 @@ div.search-form
 }
 .siteIs 
 {
-        font-family: 'Segoe UI Light', 'Open Sans Light';
-        color: #88898B;
-        letter-spacing: 0em;
-        font-size: 74pt;
-        line-height: 7pt;
+    font-family: 'Segoe UI Light';
+    color: #88898B;
+    letter-spacing: 0em;
+    font-size: 74pt;
+    line-height: 7pt;
+
 }
 .coming,.soon 
 {
@@ -289,6 +290,22 @@ div.search-form
 }
 .siteDescription 
 {
+<<<<<<< HEAD
+    background: #fff;
+    position: absolute;
+    display: inline-block;
+    width: 430px;
+    height: 90px;
+    margin: -12% 33%;
+    border-image: linear-gradient(90deg, #60c0e6, #2185a0 91%,#06566B ) 1 100%;
+    border-left-width: 6px;
+    padding: 2% 5%;
+    font-family: 'Segoe UI Light';
+    color: #88898B;
+    line-height: 6pt;
+    font-size: medium;
+}
+=======
         background: #fff;
         position: absolute;
         display: inline-block;
@@ -304,3 +321,4 @@ div.search-form
         font-size: medium;
 }
 
+>>>>>>> d7730d38844df053ab809d5d29036fa56408e44d
