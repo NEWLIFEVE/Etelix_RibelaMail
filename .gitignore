@@ -1,7 +1,9 @@
-assets/*
+src/web/assets/*
 !assets/.gitignore
-protected/runtime/*
+srv/web/protected/runtime/*
 !protected/runtime/.gitignore
-protected/data/*.db
-themes/classic/views/
+src/web/protected/data/*.db
+src/web/themes/classic/views/
+src/web/protected/config/db.php
+src/web/protected/config/gii.php
 /nbproject/private/

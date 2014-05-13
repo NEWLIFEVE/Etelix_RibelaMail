@@ -8,6 +8,7 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Ribela',
+	'timeZone'=>'America/Caracas',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -18,21 +19,7 @@ return array(
 		'application.components.*',
 	),
 
-	'modules'=>array(
-		// uncomment the following to enable the Gii tool
-		'gii'=>array(
-            'class'=>'system.gii.GiiModule',
-			'password'=>'123',
-            // If removed, Gii defaults to localhost only. Edit carefully to taste.
-			'ipFilters'=>array(
-                '127.0.0.1',
-                '::1'
-                ),
-            'generatorPaths'=>array(
-                'bootstrap.gii',
-                ),
-            ),
-	),
+	'modules'=>array(),
 
 	// application components
 	'components'=>array(
@@ -53,15 +40,7 @@ return array(
 		
 		// uncomment the following to use a MySQL database
 		
-		'db'=>array(
-			'connectionString'=>'pgsql:host=172.16.17.190;port=5432;dbname=ribela_mail',
-			'emulatePrepare'=>true,
-			'username'=>'postgres',
-                        'password'=>'123',
-			'charset'=>'utf8',
-			'enableProfiling'=>true,
-                        'enableParamLogging'=>true,
-            ),
+		
 		
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
