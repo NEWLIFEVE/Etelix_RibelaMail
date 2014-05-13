@@ -51,8 +51,6 @@ $RIBELA.AJAX=(function()
              data: form,
              success: function(data)
              {
-                 alert(data);
-                 console.log(data);
                  switch(data){
                     case '0':
                         $(".success ").css("color", "#F74B4B").html("Sorry, the email was not saved, try again").fadeIn("slow");
