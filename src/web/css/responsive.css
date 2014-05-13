@@ -1,0 +1,20 @@
+/* 
+    Document   : responsive
+    Created on : 13/05/2014, 02:47:56 PM
+    Author     : Pablo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+@media (min-width: 764px)  and (max-width: 1024px)
+{
+    div.landingpage {width: 238px;}
+    div.siteDescription {margin: 2% 13%;}
+    div.mail-input { width: 40%; margin-top: 25%; margin-left: 18%;}
+    img.logo {margin-left: 22em;margin-top: 5em;}
+    div#footer {margin: 46px 12px;width: 75%;}
+}
+
