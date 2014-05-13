@@ -296,6 +296,8 @@ div.search-form
     height: 90px;
     margin: -12% 34%;
     border-image: linear-gradient(90deg, #60c0e6, #2185a0 91%,#06566B ) 1 100%;
+    -webkit-border-image: linear-gradient(90deg, #60c0e6, #2185a0 91%,#06566B ) 1 100%;
+    -moz-border-image: -moz-linear-gradient(90deg, #60c0e6, #2185a0 91%,#06566B ) 1 100%;
     border-left-width: 6px;
     padding: 2% 4%;
     font-family: 'Open Sans';
