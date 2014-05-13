@@ -1,6 +1,6 @@
 <?php
 //Definimos nuestro servidor de produccion 
-define('SERVER_NAME_PROD','ribela.net');
+define('SERVER_NAME_PROD','www.ribela.net');
 //Obtenemos el nombre del servidor actual 
 $server=$_SERVER['SERVER_NAME'];
 
@@ -19,9 +19,9 @@ $yii=dirname(__FILE__).'/../../../yii/framework/yii.php';
 require_once($yii);
 
 $main=require(dirname(__FILE__).'/protected/config/main.php');
-//$db=require(dirname(__FILE__).'/protected/config/db.php');
-//$gii=require(dirname(__FILE__).'/protected/config/gii.php');
+$db=require(dirname(__FILE__).'/protected/config/db.php');
+$gii=require(dirname(__FILE__).'/protected/config/gii.php');
 
-//$config=CMap::mergeArray($main,$db,$gii);
+$config=CMap::mergeArray($main,$db,$gii);
 
-Yii::createWebApplication($main)->run();
+Yii::createWebApplication($config)->run();

@@ -4,5 +4,6 @@ src/web/protected/runtime/*
 !protected/runtime/.gitignore
 src/web/protected/data/*.db
 src/web/themes/classic/views/
+src/web/protected/config/db.php
+src/web/protected/config/gii.php
 /nbproject/private/
-
