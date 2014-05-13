@@ -263,7 +263,7 @@ margin-left: 32%;
 }
 .siteIs 
 {
-    font-family: 'Segoe UI Light', 'Open Sans Light';
+    font-family: 'Segoe UI Light';
     color: #88898B;
     letter-spacing: 0em;
     font-size: 74pt;
@@ -298,7 +298,7 @@ margin-left: 32%;
     border-image: linear-gradient(90deg, #60c0e6, #2185a0 91%,#06566B ) 1 100%;
     border-left-width: 6px;
     padding: 2% 5%;
-    font-family: 'Calibri Light', Helvetica, sans-serif;
+    font-family: 'Segoe UI Light';
     color: #88898B;
     line-height: 6pt;
     font-size: medium;

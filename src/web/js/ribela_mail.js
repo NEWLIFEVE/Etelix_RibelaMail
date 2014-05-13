@@ -24,7 +24,7 @@ $RIBELA.UI = (function(){
         {
             $(".success ").fadeOut("fast");
             if($("#inputMail").val()==""){
-                $(".success ").css("color", "#F74B4B").html("empty input").fadeIn("slow");
+                $(".success ").css("color", "#F74B4B").html("Please provide an email").fadeIn("slow");
             }else{
                 if ( !/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/.test($("#inputMail").val()) )
                     $(".success ").css("color", "#F74B4B").html("The entered email is not correct").fadeIn("slow");
@@ -51,10 +51,14 @@ $RIBELA.AJAX=(function()
              data: form,
              success: function(data)
              {
-                 if(data==true)
-                     $(".success ").css("color", "rgb(83,180,216)").html("the email was successfully saved").fadeIn("slow");
-                 else
-                     $(".success ").css("color", "#F74B4B").html("sorry, the email was not saved, try again").fadeIn("slow");
+                 switch(data){
+                    case '0':
+                        $(".success ").css("color", "#F74B4B").html("Sorry, the email was not saved, try again").fadeIn("slow");
+                    case '1':
+                        $(".success ").css("color", "rgb(83,180,216)").html("The email was successfully saved").fadeIn("slow");
+                    case '2':
+                        $(".success ").css("color", "#F74B4B").html("Sorry, the email is already registered").fadeIn("slow");
+                 }        
              }
         });
     }
