@@ -16,6 +16,8 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
         <link rel="shortcut icon" href="<?php echo Yii::app()->request->baseUrl; ?>/images/ribela.ico" type="image/x-icon" />
 
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
+        
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 

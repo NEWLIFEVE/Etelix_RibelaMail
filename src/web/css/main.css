@@ -263,19 +263,19 @@ div.search-form
 }
 .siteIs 
 {
-    font-family: 'Segoe UI Light';
+    font-family: 'Open Sans';
     color: #88898B;
     letter-spacing: 0em;
-    font-size: 74pt;
+    font-size: 63pt;
     line-height: 7pt;
 }
 .coming,.soon 
 {
-        font-family: 'Calibri';
+        font-family: 'Open Sans';
         color: #88898B;
         font-weight: bolder;
         letter-spacing: 2px;
-        font-size: 88pt;
+        font-size: 74pt;
         line-height: 19pt;
         text-align: right;
 }
@@ -285,22 +285,22 @@ div.search-form
 }
 .soon 
 {
-        margin: 18% 42%;
+        margin: 18% 44%;
 }
 .siteDescription 
 {
     background: #fff;
     position: absolute;
     display: inline-block;
-    width: 430px;
+    width: 460px;
     height: 90px;
-    margin: -12% 33%;
+    margin: -12% 34%;
     border-image: linear-gradient(90deg, #60c0e6, #2185a0 91%,#06566B ) 1 100%;
     border-left-width: 6px;
-    padding: 2% 5%;
-    font-family: 'Segoe UI Light';
+    padding: 2% 4%;
+    font-family: 'Open Sans';
     color: #88898B;
     line-height: 6pt;
-    font-size: medium;
+    font-size: 16px;
 }
 
